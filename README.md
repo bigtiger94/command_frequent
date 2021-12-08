@@ -5,7 +5,7 @@ remote sync
 ```rsync -avg {from} {to}```
 
 get number of files
-```ls -l | grep ^d | wc -l```
+```ls -l | grep <pattern> | wc -l```
 
 git remote add
 ```git remote add origin https://<ID>:<TOKEN>@github.com/~```
